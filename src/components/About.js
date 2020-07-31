@@ -1,17 +1,18 @@
 import React from 'react';
-import "./About.css"
+import "./Home.css"
 import github from "../img/github-dark.png"
 import linkedin from "../img/linkedin-dark.png"
 import { Image } from "react-bootstrap"
 
 export default function About() {
     return (
-        <div className="vh-100 d-flex justify-content-center align-items-center main-bg">
-            <div className="py-5 px-5 text-dark" style={{ backgroundColor: `rgba(${255}, ${255}, ${255}, ${0.8})` }}>
-                <p style={{ textTransform: "uppercase", letterSpacing: "40px", fontWeight: "500", lineHeight: "1.2", fontSize: "40px" }}>Jack Herdman</p><br />
-                <a href="https://github.com/jackherdmantafe"><Image className="m-2" src={github} width="40px" /></a>
-                <a href="www.linkedin.com/in/jack-h-900979143"><Image className="m-2" src={linkedin} width="40px" /></a>
+        <section className="vh-50 d-flex justify-content-center align-items-center">
+            <div className="py-5 px-5 text-light" style={{ backgroundColor: `rgba(${52}, ${58}, ${64})` }}>
+                <p style={{ fontWeight: "500", lineHeight: "1.2", fontSize: "40px" }}>
+                    
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem hic aperiam! Libero quia dolore temporibus natus incidunt veritatis, harum aliquam autem unde maxime delectus et distinctio inventore sit totam ipsa magnam dolores eligendi. Nobis quos incidunt magnam accusamus sequi cumque, earum veritatis explicabo sapiente repellendus eius voluptas, voluptate cum.</p><br />
+
             </div>
-        </div>
+        </section>
     )
 }

@@ -1,7 +1,9 @@
-.main-bg{
-    background-image: url("../img/controller-bg.jpg");
+.skills-bg{
+    background-image: url("../img/book-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: fit-content; 
+    position: center;
+    background-attachment: fixed;
 }

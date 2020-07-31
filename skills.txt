@@ -1,0 +1,36 @@
+JAVASCRIPT
+Data Types, Variables and Statements
+Arrays and Loops
+Objects and Functions
+Logical Operators and Callbacks
+String Extensions and Regular Expressions
+Switches and Classes
+Inheritance, Hoisting and Scope
+Default Values, Arrow Functions, Exceptions and Ternary Operators
+Files and JSON Files
+API's, Promises
+
+
+NODE JS
+NodeJS
+Testing & Test Driven Development
+Introduction to HTTP, REST APIs and Postman
+
+HTML, CSS
+HTML Elements
+HTML Attributes
+HTML Events
+CSS Selectors
+CSS Properties
+CSS Layout
+
+FULL STAcK REACT, BOOTSTRAP
+Express.js
+Node-Persist
+React Routing
+Bootstrap implementation
+
+AGILE DEVELOPMENT
+Traditional Waterfall vs Agile projects
+SCRUM - agile framework
+User Stories
