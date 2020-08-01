@@ -1,25 +1,29 @@
 import React from 'react';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 export default function Header() {
     return (
-        <nav className="navbar navbar-expand-lg text-dark navbar-light sticky-top bg-light">
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a className="navbar-brand text-dark" href="#"><h3 style={{textTransform: "uppercase", letterSpacing: "14px", fontWeight: "500"}}>Jack Herdman</h3></a>
-                <ul className="navbar-nav navbar-center mr-auto mt-2 mt-lg-0">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <Navbar bg="light" fixed="top" expand="lg">
+            <Navbar.Brand className="text-dark" href="/#home"><h3 style={{ textTransform: "uppercase", letterSpacing: "14px", fontWeight: "500" }}>Jack Herdman</h3></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto navbar-center mt-2 mt-lg-0">
+                    <Nav.Link href="/#home">Home</Nav.Link>
+                    <Nav.Link href="/#about">About</Nav.Link>
+                    <Nav.Link href="/#skills">Skills</Nav.Link>
+                    <NavDropdown title="Projects" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="/projects/firstconsoleapp">First Console App</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/groupconsoleproject">Group Console Project</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/fishinglicence">Fishing Licence App</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/rsa">RSA app</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/majorproject">Major Project</NavDropdown.Item>
+
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="/projects/matchgame">Avatar Match Game</NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link href="/gallery">Gallery</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }
