@@ -2,19 +2,8 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <nav className="navbar d-flex justify-content-center navbar-expand-lg navbar-dark bg-dark">
-            <ul className="navbar-nav d-flex  ">
-                <li className="nav-item active">
-                    <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-
-        </nav>
+        <footer className="bg-dark p-3 d-flex align-items-center justify-content-center text-light">
+           <p className="mb-0 small"> This Website was build by Jack Herdman using React and Bootstrap. August 2020</p>
+        </footer>
     )
 }
