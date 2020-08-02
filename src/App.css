@@ -42,3 +42,11 @@
   left: 50%;
   transform: translatex(-50%);
 }
+
+@media (max-width:991px) {
+  .navbar-nav.navbar-center {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
