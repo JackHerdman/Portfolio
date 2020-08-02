@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import './AvatarGame.css';
 
 
@@ -62,7 +62,9 @@ export default function AvatarGame() {
                         </div>
                     </div>
                 </div>
-
+                <div>
+                <Button className='m-4' variant="light" onClick={() => window.location.reload()}>Try Again</Button>
+                </div>
             </Container>
         </div>
     )

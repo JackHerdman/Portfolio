@@ -1,12 +1,22 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import searchCode from '../img/fishing-search-code.PNG';
+import fishingList from '../img/fishing-list.png';
+import fishingDelete from '../img/fishing-confirm-delete.png';
 
 export default function FishingLicenceApp() {
 
     return (
-        <div className="bg-dark vh-100" style={{ marginTop: "69px" }}>
+        <div className="bg-dark" style={{ marginTop: "69px" }}>
             <Container className="d-flex flex-column align-items-center justify-content-center">
-                    <div className="py-2 px-5 m-3 text-light">This is a console app we created after our first week of learning Javascript. We had to include what we had learnt throughout the week and incorporate it into a boiler plate that was provided to us. This included Functions, Arrays, Loops, Operators and String Extensions.<br/><br/>I have made a Running Carnival results search. By entering a "runner" and a "race" it will tell you the outcome of the runner in that particular race.</div>
+                <h3 className="py-2 px-5 mb-0 text-light">Seocnd React Site - Fishing Licences</h3>
+                <div className="py-2 px-5 m-3 text-light">This was our second React site which was another transaction from Service NSW which we were going to make into a full stack website that will be able to Create, Read, Update and Delete data from persistant storage using Node Persist. During this week we learnt how to use Node Persist and we also were taught the basics of Bootstrap. We started with our server side and set out all of our basic requests. I am especially proud of the search function which was tested in postman. It allows for a broad search into nested data. There was so much to learn this week and so much to try and take on board and comprehend. Trying to get one thing working before moving onto the next means i wasnt able to implement any of the CRUD except Read. Time was a major challenge this week. I was able to understand the concepts and implement them to full and complete success in our major project.</div>
+                <img src={searchCode} alt="sample of get request for search box"/>
+                <div className="py-2 px-5 m-3 text-light">This was our first foray into using bootstrap and bootstrap-react. I learnt general styling and how bootstrap implements flex boxes. I like how i got the confirm delete page to separate into columns</div>
+                <img src={fishingList} width="100%" height="auto" className="m-3" alt="Landing Page listing all fishing licences" />
+                <img src={fishingDelete} width="100%" height="auto" className="m-3" alt="confirmation of dete page" />
+                <div className="py-2 px-5 m-3 text-light"> As this was our first time learning react and with a client and server side making persistant data requests, our sites were not completed and functional, rather used to give us a step in the door and an idea of how we might create a full stack site. You may wish to view the code using the gitub link below</div>
+                <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/JackHerdmanTAFE/FishingLicenceApp" className="text-light">view code on GitHub</a></div>
             </Container>
         </div>
     )

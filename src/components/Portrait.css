@@ -1,0 +1,9 @@
+.portrait-bg{
+    background-image: url("../img/opera-house-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content; 
+    position: center;
+    background-attachment: fixed;
+}

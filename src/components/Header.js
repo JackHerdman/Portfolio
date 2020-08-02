@@ -14,8 +14,8 @@ export default function Header() {
                     <NavDropdown title="Projects" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/projects/firstconsoleapp">First Console App</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/groupconsoleproject">Group Console Project</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/fishinglicence">Fishing Licence App</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/rsa">RSA app</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/fishinglicence">Fishing Licence App</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/majorproject">Major Project</NavDropdown.Item>
 
                         <NavDropdown.Divider />
